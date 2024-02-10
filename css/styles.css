@@ -21,11 +21,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -42,6 +42,10 @@ a {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts-link {
@@ -78,8 +82,9 @@ a {
   cursor: pointer;
 }
 
-.btn:focus .btn:active {
-  background-color: #4d5ae5;
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
 }
 
 .achievement-title {
@@ -95,6 +100,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -158,6 +167,10 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo .logo-span {
   color: #f4f4fd;
 }
 
