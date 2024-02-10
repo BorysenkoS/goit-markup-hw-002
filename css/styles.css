@@ -131,6 +131,9 @@ a {
   text-align: center;
   color: #434455;
 }
+.team-item {
+  background-color: #ffffff;
+}
 
 .portfolio-title {
   font-size: 36px;
